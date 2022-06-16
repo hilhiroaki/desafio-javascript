@@ -57,7 +57,6 @@ function allStudents(){
     uniqueIDs.map(element => perStudent(element))
 }
 
-<<<<<<< HEAD
 function approved(id){
     return perStudent(id) > 5 ? true : false
 }
@@ -66,8 +65,3 @@ global(FILE_NAME)
 perClass(FILE_NAME)
 allStudents(FILE_NAME)
 console.log(approved(1820865))
-=======
-global(FILE_NAME)
-perClass(FILE_NAME)
-allStudents(FILE_NAME)
->>>>>>> a489b3c2b757d83786db8b91f8b6c537b31cf2f7
